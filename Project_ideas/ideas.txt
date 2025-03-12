@@ -1,3 +1,6 @@
 1. A gaussian linear regression model that can compute where it is most likely to encounter kontrollanter
 2. A multivariate linear regression model that can compute the difficulty of a discgolf course
 3. Something involving a deep q-learning network and robotics, maybe a maze solver or something. 
+4. A RNN LSTM that can predict timeseries, especially financial timeseries.
+5. A transformer that can predict macrotrends in economics
+6. A RNN sentiment analyser pulling data from twitter/X.
