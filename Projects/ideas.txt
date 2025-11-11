@@ -2,8 +2,7 @@
 or can a graph neural network do this?
 2. A multivariate linear regression model that can compute the difficulty of a discgolf course
 
-3. A RNN LSTM that can predict timeseries, especially financial timeseries.
-4. A transformer that can predict macrotrends in economics
+3. A RNN LSTM that can predict timeseries.
 5. A RNN sentiment analyser pulling data from twitter/X.
 
 reinforecement learning:
@@ -12,5 +11,4 @@ reinforecement learning:
 8. Advantage Actor-Critic (A2C)
 9. Proximal Policy Optimization (PPO)
 10. AlphaZero (Monte Carlo Tree Search + Deep Learning)
-11. analysera volymbalanskurvor för att förutse när amn ska sälja, typ kolla lutning, hitta mönster osv. Tanken är att man inte vill köpa när alla andra köper. Så om man kan förutse hur stor ökninen kan bli av de första staplarna kan man vara tidigt ute. 
-12. analysera grafmönster med klusteringalgoritmer. Hitta kluster där aktien ökar > 50% av fallen 
+12. Analysera grafmönster med klusteringalgoritmer.  
