@@ -1,2 +1,0 @@
-1. Some sort of benchmarking of different ML algorithms on a problem. Like using 
-different algorithms for paathplanning and comparing the results. 
