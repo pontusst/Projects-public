@@ -1,2 +1,2 @@
 ### A repository for projects 
-In the Project ideas folder you will find subfolders containing some of the projects that i have been working on.
+In the Projects folder you will find subfolders containing projects that i have been working on.
