@@ -137,7 +137,7 @@ plt.show()
 
 """
 Where i left off:
-reading about nomalization of data to not introduce look forward bias. 
+reading about nomalization of data to not introduce look ahead bias. 
 Using average true range as a data instead of closing price. 
 """
 
