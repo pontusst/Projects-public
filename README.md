@@ -1,5 +1,6 @@
 ## Projects repository 
 In the Projects folder you will find subfolders containing projects that i have been working on.
+
 ### Computer_vision/CV_project 
 - Final project of computer vision course. Runs a structure from motion poipeline.
 
