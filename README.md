@@ -1,15 +1,17 @@
 ## Projects repository 
 In the Projects folder you will find subfolders containing projects that i have been working on.
 
-### Computer_vision/CV_project 
-- Final project of computer vision course. Runs a structure from motion poipeline.
-
-### Computer_vision/CNN
- - Final project of image analysis course. Runns a convolutional neural network to classify trees based on images of bark.
-
 ### Reinforcement_learning 
-- Runs a script where two agents play tic tac toe against eachother
+- A project where two agents play tic tac toe against eachother.
 
 ### Stochastic_optimization 
-- Code for training a neural network with genetic algorithms
+- Project aimed att training a MPL with genetic algorithms for optimizing a brake pattern on a simulated truck ride.
+
+### Computer_vision/CV_project 
+- Final project of computer vision course. Creates 3D pointcloud from 2D point correspondances.
+
+### Computer_vision/CNN
+ - Final project of image analysis course. A classifyer that classifies tree species based on images of bark. Classifier is trained using a CNN. 
+
+
 
