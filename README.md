@@ -10,7 +10,7 @@ In the Projects folder you will find subfolders containing coursework projects.
 ### Computer_vision/structure from motion pipeline 
 - Final project of computer vision course. Creates 3D pointcloud adn camera pose estimation from 2D point correspondances.
 
-### Computer_vision/image classifier
+### Image_analysis/image classifier
  - Final project of image analysis course. A classifyer that classifies tree species based on images of tree bark. Classifier was trained using a convolutional neural net. 
 
 
