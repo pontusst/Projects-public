@@ -4,15 +4,15 @@ This project was aimed at creating a structure from motion pipeline in order to 
 
 ## Pipeline 
 ### Images
-Multiple images such as this one were selected  
+Multiple images such as this one were selected.  
+One example is this one 
 ***
 ![Example image](data_2025/data/4/DSC_0480.JPG) 
 ***
-and this one 
+and this one.
 ***
 ![Example image](data_2025/data/4/DSC_0490.JPG) 
 ***
-was selected.  
 
 ### Keypoint extraction
 Two images suitable as inital pair were run through a SIFT algorithm to extract keypoints.  
