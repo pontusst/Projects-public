@@ -34,7 +34,7 @@ After this, one cameras rotation matrix was kept as the identity matrix and the 
 ![Example image](data_2025/water_fountain2.png) 
 ***
 The rotations follow a smooth pattern which is also how the camera was moving when the pictures were taken.  
-
+### Estimation camera translations
 The translations between the cameras were estimated through a RANSAC algorithm with the now known rotations matrises. 
 ***
 ![Example image](data_2025/water_fountain1.png) 
@@ -43,6 +43,13 @@ The translations between the cameras were estimated through a RANSAC algorithm w
 All points that were estimated were then plotted together with the estimated camera poses to create the final reconstruction of the cameras and the scene.
 ***
 ![Example image](data_2025/water_fountain.png) 
+***
+### Improvements
+This concludes the basic Sfm pipeline but more improvements can be made to increase accuracy of the pipeline.  
+* Homography estimation can be used to detect planar degeneracies and filter matches before estimating the essential matrix.
+* The 5-point algorithm can be used within RANSAC to robustly estimate the essential matrix from minimal correspondences.
+* If sparse features from SIFT are insufficient, dense matchers like RoMa can provide more correspondences and improve reconstruction density. 
+* Perform bundle adjustment with the Levenberg–Marquardt algorithm. 
 
 
 
