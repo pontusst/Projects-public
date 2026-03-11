@@ -16,7 +16,7 @@ was selected.
 
 ### Keypoint extraction
 Two images suitable as inital pair were run through a SIFT algorithm to extract keypoints.  
-WIth the keypoint one can estimate a essential matrix and with that one can estimate 3D points and realtive camera positions. The result can be viewed in the image below. 
+With the keypoint and the camera calibraition matrix an essential matrix can be calculated and with that one can estimate 3D points and realtive camera positions. The result can be viewed in the image below. 
  As might be visable in the figure the left most camera is set to the identity matrix and the rightmost is the relative rotation from that camera.  
 ***
 ![Example image](data_2025/water_fountain4.png) 
@@ -25,7 +25,7 @@ WIth the keypoint one can estimate a essential matrix and with that one can esti
 
 To get a better estimation of the points more correspondances could be used. 
 With the initial point corresponadances a fundamental matrix could be extracted and from that the realtive rotations. The rotations were taken as realtive to an baseline rotation that was defined as the identity matrix. 
-Extracting the realtive rotations and setting their translation to 0 gave the following result:  
+Extracting the relative rotations and setting their translation to 0 gave the following result:  
 ***
 ![Example image](data_2025/water_fountain3.png)  
 ***
