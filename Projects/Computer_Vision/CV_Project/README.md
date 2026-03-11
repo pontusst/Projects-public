@@ -5,7 +5,7 @@ This project was aimed at creating a structure from motion pipeline in order to 
 ## Pipeline 
 ### Images
 Multiple images such as this one were selected.  
-One example is this one 
+Below are som example images 
 *** 
 
  <p align="center">
@@ -14,7 +14,6 @@ One example is this one
 
 ***
 
-and this one.
 
 ***
 <p align="center">
