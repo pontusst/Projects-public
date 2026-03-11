@@ -24,7 +24,7 @@ With the keypoint and the camera calibraition matrix an essential matrix can be 
 ### Estimating cameras  
 
 To get a better estimation of the points more correspondances could be used. 
-With the initial point corresponadances a fundamental matrix could be extracted and from that the realtive rotations. The rotations were taken as realtive to an baseline rotation that was defined as the identity matrix. 
+With the initial point corresponadances relative rotation from a set camera could be extracted. The rotations were taken as realtive to an baseline camera with a rotation that was defined as the identity matrix. 
 Extracting the relative rotations and setting their translation to 0 gave the following result:  
 ***
 ![Example image](data_2025/water_fountain3.png)  
